@@ -6,6 +6,7 @@ export const radioPlayerInit = () => {
     const radioHeaderBig = document.querySelector('.radio-header__big'); 
     const radioStop = document.querySelector('.radio-stop');
 
+    
     const audio = new Audio();
     audio.type = 'audio/aac';
 
